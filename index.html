@@ -19,7 +19,7 @@
   <body>
     <div class="wrapper">
       <div class="videoWrapper">
-        <video class='mejs__player' width='320' height="180">
+        <video width='320' height="180" >
 
           <source src="video/video.mp4" type="video/mp4">
           <source src="video/video.ogg" type="video/ogg">
@@ -66,12 +66,12 @@
 				</p>
       </div>
     </div>
-    <!-- <script>
-      $('video, audio').mediaelementplayer({
-        features: ['playpause', 'tracks', 'progress'],
-        startLanguage: 'en'
+    <script>
+      $('video').mediaelementplayer({
+        features: ['playpause', 'progress', 'tracks', 'volume', 'fullscreen'],
+        // startLanguage: 'en'
       });
-    </script> -->
+    </script>
 
   </body>
 </html>
