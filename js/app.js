@@ -2,11 +2,12 @@ console.log('hi');
 var vid = document.getElementById("myVideo");
 
 function getCurTime() {
-    if (vid.currentTime<4.130){
+    if (vid.currentTime>4.130){
       console.log('hihi');
 
     }
 }
+getCurTime();
 
 function setCurTime1() {
     vid.currentTime=0.240;
