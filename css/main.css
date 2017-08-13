@@ -1,0 +1,38 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0px auto;
+
+  padding: 0px 0px 10px;
+  /*background: #f4f7f8;*/
+  /*border-radius: 8px;*/
+}
+
+p{
+	font-weight:400;
+	padding:10px;
+}
+
+
+.videoWrapper{
+  margin: 0 auto;
+  display: block;
+  width: 352px;
+}
+
+
+/*
+.audioWrapper {
+  width: 400px;
+}*/
