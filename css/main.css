@@ -30,7 +30,18 @@ p{
   display: block;
   width: 320px;
 }
+.textWrapper{
+  padding: 10px;
+}
 
+button{
+  display: inline;
+  text-align: left;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
 
 /*
 .audioWrapper {

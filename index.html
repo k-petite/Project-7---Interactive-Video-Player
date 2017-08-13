@@ -19,7 +19,7 @@
   <body>
     <div class="wrapper">
       <div class="videoWrapper">
-        <video width='320' height="180" >
+        <video id="myVideo" width='320' height="180" >
           <source src="video/video.mp4" type="video/mp4">
           <source src="video/video.ogg" type="video/ogg">
           <track label="English" kind="subtitles" srclang="en" src="captions.vtt" default>
@@ -27,40 +27,39 @@
       </div>
 
       <div class="textWrapper">
-        <p>
-					<a>Now that we've looked at the architecture
-					of the internet, let's see how you might</a>
-					<a>connect your personal devices to
-					the internet inside your house.</a>
-					<a>Well there are many ways to
-					connect to the internet, and</a>
-					<a>most often people connect wirelessly.</a>
-					<br>
-					<br>
-					<a>Let's look at an example of how
-					you can connect to the internet.</a>
-					<a>If you live in a city or a town,
-					you probably have a coaxial cable for</a>
-					<a>cable Internet, or a phone line if you
-					have DSL, running to the outside of</a>
-					<a>your house, that connects you to
-					the Internet Service Provider, or ISP.</a>
-					<a>If you live far out in the country,
-					you'll more likely have</a>
-					<a>a dish outside your house, connecting
-					you wirelessly to your closest ISP, or</a>
-					<a>you might also use the telephone system.</a>
-					<br>
-					<br>
-					<a>Whether a wire comes straight from
-					the ISP hookup outside your house, or</a>
-					<a>it travels over radio
-					waves from your roof,</a>
-					<a>the first stop a wire will make once
-					inside your house, is at your modem.</a>
-					<a>A modem is what connects the internet
-					to your network at home.</a>
-					<a>A few common residential modems are DSL or</a>
+        <button onclick="setCurTime1()" type="button">Now that we've looked at the architecture
+        of the internet, let's see how you might</button>
+        <button onclick="setCurTime2()" type="button">connect your personal devices to
+        the internet inside your house.</button>
+        <button onclick="setCurTime3()" type="button">Well there are many ways to
+        connect to the internet, and</button>
+        <button onclick="setCurTime4()" type="button">most often people connect wirelessly.</button>
+        <br>
+        <br>
+        <button onclick="setCurTime5()" type="button">Let's look at an example of how
+        you can connect to the internet.</button>
+        <button onclick="setCurTime6()" type="button">If you live in a city or a town,
+        you probably have a coaxial cable for</button>
+        <button onclick="setCurTime7()" type="button">cable Internet, or a phone line if you
+        have DSL, running to the outside of</button>
+        <button onclick="setCurTime8()" type="button">your house, that connects you to
+        the Internet Service Provider, or ISP.</button>
+        <button onclick="setCurTime9()" type="button">If you live far out in the country,
+        you'll more likely have</button>
+        <button onclick="setCurTime10()" type="button">a dish outside your house, connecting
+        you wirelessly to your closest ISP, or</button>
+        <button onclick="setCurTime11()" type="button">you might also use the telephone system.</button>
+        <br>
+        <br>
+        <button onclick="setCurTime12()" type="button">Whether a wire comes straight from
+        the ISP hookup outside your house, or</button>
+        <button onclick="setCurTime13()" type="button">it travels over radio
+        waves from your roof,</button>
+        <button onclick="setCurTime14()" type="button">the first stop a wire will make once
+        inside your house, is at your modem.</button>
+        <button onclick="setCurTime15()" type="button">A modem is what connects the internet
+        to your network at home.</button>
+        <button onclick="setCurTime16()" type="button">A few common residential modems are DSL or</button>
 				</p>
       </div>
     </div>
@@ -70,6 +69,6 @@
         startLanguage: 'en'
       });
     </script>
-
+    <script src='js/app.js'></script>
   </body>
 </html>
