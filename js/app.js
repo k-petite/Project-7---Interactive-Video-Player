@@ -1,17 +1,6 @@
 var vid = document.getElementById("myVideo");
 console.log(vid.currentTime);
 
-
-// Get the video element with id="myVideo"
-
-// Attach a timeupdate event to the video element, and execute a function if the current playback position has changed
-vid.addEventListener("timeupdate", myFunction);
-
-function myFunction() {
-    // Display the current position of the video in a p element with id="demo"
-    document.getElementById("demo").innerHTML = vid.currentTime;
-
-
 function setCurTime1() {
     vid.currentTime=0.240;
 }
@@ -60,3 +49,12 @@ function setCurTime15() {
 function setCurTime16() {
     vid.currentTime=57.650;
 }
+
+// Get the video element with id="myVideo"
+
+// Attach a timeupdate event to the video element, and execute a function if the current playback position has changed
+vid.addEventListener("timeupdate", myFunction);
+
+function myFunction() {
+    // Display the current position of the video in a p element with id="demo"
+    document.getElementById("demo").innerHTML = vid.currentTime;
