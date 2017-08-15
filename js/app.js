@@ -57,5 +57,54 @@ vid.addEventListener("timeupdate", myFunction);
 
 function myFunction() {
     // Display the current position of the video in a p element with id="demo"
-    document.getElementById("demo").innerHTML = vid.currentTime;
+    var list = document.getElementsByClassName("textWrapper")[0];
+
+    let time = vid.currentTime;
+
+    if (time>0 & time<3.8) {
+      list.getElementsByTagName('button')[0].style.background='rgb(176, 246, 234)';
+    }
+
+    if (time>3.8 & time<8){
+      for(i=0; i<16; i+=1){
+      list.getElementsByTagName('button')[i].style.color='black';
+      list.getElementsByTagName('button')[i].style.background='none';
+      list.getElementsByTagName('button')[1].style.background='rgb(176, 246, 224)';
+      }
+    }
+
+    if (time>8 & time<11){
+      for(i=0; i<16; i+=1){
+        list.getElementsByTagName('button')[i].style.color='black';
+        list.getElementsByTagName('button')[i].style.background='none';
+        list.getElementsByTagName('button')[2].style.background='rgb(176, 246, 214)';
+      }
+    }
+
+    if (time>11 & time<13){
+      for(i=0; i<16; i+=1){
+        list.getElementsByTagName('button')[i].style.color='black';
+        list.getElementsByTagName('button')[i].style.background='none';
+        list.getElementsByTagName('button')[3].style.background='rgb(176, 246, 204)';
+      }
+    }
+
+    if (time>13 & time<17){
+      for(i=0; i<16; i+=1){
+        list.getElementsByTagName('button')[i].style.color='black';
+        list.getElementsByTagName('button')[i].style.background='none';
+        list.getElementsByTagName('button')[4].style.background='rgb(176, 246, 194)';
+      }
+    }
+
+    if (time>17 & time<22.370){
+      for(i=0; i<16; i+=1){
+        list.getElementsByTagName('button')[i].style.color='black';
+        list.getElementsByTagName('button')[i].style.background='none';
+        list.getElementsByTagName('button')[5].style.background='rgb(176, 246, 184)';
+      }
+    }
+
+
+
 }
