@@ -1,46 +1,16 @@
 var vid = document.getElementById("myVideo");
 console.log(vid.currentTime);
 
-// function getCurTime() {
-//     if (vid.currentTime > 4.130 & vid.currentTime < 8){
-//       console.log('hihihihihi');
-//     }
-// }
-
 
 // Get the video element with id="myVideo"
 
-// // Assign an ontimeupdate event to the video element, and execute a function if the current playback position has changed
-// vid.ontimeupdate = function() {myFunction()};
-//
-// // function myFunction() {
-// //     // Display the current position of the video in a p element with id="demo"
-// //     let time = vid1.currentTime;
-// //     console.log(time);
-// //     if (time > 4.130)
-// //     {console.log(vid1.currentTime);}
-// // }
-//
-// function myFunction() {
-//     // Display the current position of the video in a p element with id="demo"
-//     document.getElementById("demo").innerHTML = vid.currentTime;
-// }
-
-// Get the video element with id="myVideo"
-var vid = document.getElementById("myVideo");
-
-// Assign an ontimeupdate event to the video element, and execute a function if the current playback position has changed
-vid.ontimeupdate = function() {myFunction()};
+// Attach a timeupdate event to the video element, and execute a function if the current playback position has changed
+vid.addEventListener("timeupdate", myFunction);
 
 function myFunction() {
     // Display the current position of the video in a p element with id="demo"
     document.getElementById("demo").innerHTML = vid.currentTime;
-}
 
-
-// for (i=0, i<16, i+=1){
-// $("button:nth-of-type(i)").print(i);
-// }
 
 function setCurTime1() {
     vid.currentTime=0.240;
