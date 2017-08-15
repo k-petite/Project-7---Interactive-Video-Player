@@ -58,3 +58,4 @@ vid.addEventListener("timeupdate", myFunction);
 function myFunction() {
     // Display the current position of the video in a p element with id="demo"
     document.getElementById("demo").innerHTML = vid.currentTime;
+}
