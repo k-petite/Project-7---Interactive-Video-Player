@@ -24,7 +24,7 @@ p{
 	padding:10px;
 }
 
-video {
+#video-player {
   width: 320px;
   height: 180px;
 }
