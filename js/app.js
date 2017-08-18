@@ -1,4 +1,4 @@
-var vid = document.getElementById("myVideo");
+var vid = document.getElementById("video-player");
 console.log(vid.currentTime);
 
 function setCurTime1() {

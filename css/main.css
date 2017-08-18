@@ -24,11 +24,15 @@ p{
 	padding:10px;
 }
 
+video {
+  width: 320px;
+  height: 180px;
+}
 
 .videoWrapper, .textWrapper{
   margin: 0 auto;
   display: block;
-  width: 320px;
+  width: 100%;
 }
 .textWrapper{
   padding: 10px;
