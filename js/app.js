@@ -157,3 +157,10 @@ function myFunction() {
 var controls = document.getElementsByClassName("mejs__controls");
 
 controls[0].style.background='rgba(121, 212, 191, 0.2)';
+
+
+var play = document.getElementsByClassName("st0");
+
+play[0].style.fill='rgba(121, 212, 191, 0.9)';
+
+// .st0{fill:#FFFFFF;width:16px;height:16px}

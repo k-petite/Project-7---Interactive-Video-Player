@@ -38,7 +38,7 @@ p{
   padding: 10px;
 }
 
-button{
+span{
   display: inline;
   text-align: left;
   background: none;
@@ -46,26 +46,36 @@ button{
   margin: 0;
   border: none;
   border-radius: 5px;
+  cursor:pointer;
 }
 
 .mejs__time-current {
   background: rgba(91, 255, 217, 0.7);
 }
 
-.mejs__playpause-button button{
-  -webkit-transition: width .5s, height .5s; /* For Safari 3.1 to 6.0 */
-  transition: width .5s, height .5s;
-}
+/*.mejs__button > button {
+  background: transparent url('../controls.svg')
+}*/
 
-.st0:hover {
+/*.mejs__playpause-button button{
+  -webkit-transition: width .5s, height .5s; /* For Safari 3.1 to 6.0 */
+  /*transition: width .5s, height .5s;
+}*/
+
+/*.st0:hover {
     width: 20px;
     height: 20px;
-}
+}*/
+
+/*.st0{
+  fill:#aaa;
+}*/
+
 
 @media (min-width: 768px) {
   .videoWrapper, .textWrapper{
     margin: 0 auto;
     display: block;
-    width: 80%;
+    width: 70%;
   }
 }
