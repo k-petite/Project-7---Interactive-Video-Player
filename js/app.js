@@ -153,3 +153,9 @@ function myFunction() {
       textHighlight('15', 'rgb(176, 166, 0)');
     }
 }
+
+var controls = document.getElementsByClassName("mejs__controls");
+
+controls[0].style.background='rgba(121, 212, 191, 0.2)';
+
+  // background-color: rgba(121, 212, 191, 0.38);
