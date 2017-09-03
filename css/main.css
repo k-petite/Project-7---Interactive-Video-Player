@@ -2,7 +2,7 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 body {
@@ -48,10 +48,9 @@ button{
   border-radius: 5px;
 }
 
-/*
-.audioWrapper {
-  width: 400px;
-}*/
+.mejs__controls{
+  background: rgba(121, 212, 191, 0.38);
+}
 
 @media (min-width: 768px) {
   .videoWrapper, .textWrapper{
