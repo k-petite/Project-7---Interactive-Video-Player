@@ -52,6 +52,10 @@ button{
   background: rgba(121, 212, 191, 0.38);
 }
 
+.mejs__time-current {
+  background: rgba(91, 255, 217, 0.38);
+}
+
 @media (min-width: 768px) {
   .videoWrapper, .textWrapper{
     margin: 0 auto;
