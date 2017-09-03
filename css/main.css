@@ -52,3 +52,11 @@ button{
 .audioWrapper {
   width: 400px;
 }*/
+
+@media (min-width: 768px) {
+  .videoWrapper, .textWrapper{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+  }
+}
