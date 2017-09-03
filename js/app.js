@@ -58,14 +58,14 @@ vid.addEventListener("timeupdate", myFunction);
 function textBlack(){
   var list = document.getElementsByClassName("textWrapper")[0];
     for(i=0; i<16; i+=1){
-    list.getElementsByTagName('button')[i].style.color='black';
-    list.getElementsByTagName('button')[i].style.background='none';
+    list.getElementsByTagName('span')[i].style.color='black';
+    list.getElementsByTagName('span')[i].style.background='none';
     }
 }
 
 function textHighlight(number, color){
   var list = document.getElementsByClassName("textWrapper")[0];
-    list.getElementsByTagName('button')[number].style.background=color;
+    list.getElementsByTagName('span')[number].style.background=color;
 }
 
 function myFunction() {
@@ -157,5 +157,3 @@ function myFunction() {
 var controls = document.getElementsByClassName("mejs__controls");
 
 controls[0].style.background='rgba(121, 212, 191, 0.2)';
-
-  // background-color: rgba(121, 212, 191, 0.38);
