@@ -13,10 +13,7 @@ body {
 .wrapper {
   max-width: 100%;
   margin: 0 auto;
-
   padding: 0px 0px 10px;
-  /*background: #f4f7f8;*/
-  /*border-radius: 8px;*/
 }
 
 p{
