@@ -75,6 +75,7 @@ function myFunction() {
     let time = vid.currentTime;
 
     if (time>0 & time<3.8) {
+      textBlack();
       textHighlight('0', 'rgb(176, 246, 234)');
     }
 
@@ -159,8 +160,8 @@ var controls = document.getElementsByClassName("mejs__controls");
 controls[0].style.background='rgba(121, 212, 191, 0.2)';
 
 
-var play = document.getElementsByClassName("st0");
-
-play[0].style.fill='rgba(121, 212, 191, 0.9)';
+// var play = document.getElementsByClassName("st0");
+//
+// play[0].style.fill='rgba(121, 212, 191, 0.9)';
 
 // .st0{fill:#FFFFFF;width:16px;height:16px}
